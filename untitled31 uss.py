@@ -5,7 +5,7 @@ st.title("Mi primera aplicación de Streamlit")
 st.header("¡Hola, Streamlit!")
 st.text("Esta es una aplicación simple")
 
-st.image("logo_uss.png", width=300)
+st.image("logo_uss.png")
 
 # Entrada de texto principal
 texto_principal = st.text_input("Escribe algo:")

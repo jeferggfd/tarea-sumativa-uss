@@ -23,7 +23,7 @@ st.sidebar.header("¡Hola, Barra Lateral!")
 st.sidebar.text("Esto es una barra lateral")
 
 # Mostramos también el logo en la barra lateral (opcional pero queda genial)
-st.sidebar.image("logo_uss.png", width=150)
+st.sidebar.image("logo_uss.png")
 
 # Entrada de texto en la barra lateral
 texto_sidebar = st.sidebar.text_input("Escribe algo en la barra:")
